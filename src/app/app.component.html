@@ -1,0 +1,10 @@
+<table border="1">
+  <tr><th>Basic</th><td>{{timestamp}}</td></tr>
+  <tr><th>with Format long</th><td>{{timestamp| date : 'long'}}</td></tr>
+  <tr><th>with Format long and +0700</th><td>{{timestamp| date : 'long' : '+0700'}}</td></tr>
+  <tr><th>with Format long and +0700</th><td>{{timestamp| date : 'long' : '+0700'}}</td></tr>
+  <tr><th>with Format long and offset</th><td>{{timestamp| date : 'long' : offset}}</td></tr>
+  <tr><th>with Format long GMT</th><td>{{timestamp| date : 'long' : 'GMT'}}</td></tr>
+</table>
+
+<router-outlet></router-outlet>
